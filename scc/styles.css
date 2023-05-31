@@ -1,22 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #2E2F42;
+    color: #434455;
+    --background-color: #FFFFFF;
+    }
 
-}
-
-:root {
-    --background-color:#2E2F42;
-}
 /*--------------HEADER------------*/
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #2E2F42;
+    --color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
 }
@@ -128,19 +127,19 @@ body {
     font-size: 18px;
     line-height: 1.17;
     color: #F4F4FD;
-    background: var(--background-color);
+    background: #2E2F42;;
 }
 
 .footer-logo span {
     color: #4D5AE5;
-    background: var(--background-color);
+    background: #2E2F42;;
 }
 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
-    background:var(--background-color);
+    background:#2E2F42;;
 }
 
 /*-----------PORTFOLIO---------*/
