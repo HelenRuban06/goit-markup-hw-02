@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #2E2F42;
+
+}
+
+:root {
+    --background-color:#2E2F42;
+}
+/*--------------HEADER------------*/
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #2E2F42;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-logo span {
+    color: #4D5AE5;
+}
+
+.header-navigation {
+    list-style-type: none;
+}
+
+.header-navigation-item{
+    color: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.header-navigation-item:active{
+    color:#404BBF;
+    text-decoration: underline;
+}
+
+.header-adress-navigation {
+    list-style-type: none;
+}
+.header-adress-item:active{
+    color:#404BBF;
+}
+
+.header-adress-item:hover {
+    color: #404BBF;
+}
+
+.header-adress-item {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    text-decoration: none;
+}
+
+/*---------------MAIN------------------*/
+
+.main {
+    font-weight: 700;
+    background: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+.main-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;    
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+.main-button:hover {
+    background: #404BBF;
+}
+.main-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.main-one {
+    text-decoration: none;
+    list-style-type: none;
+}
+.main-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.main-product {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.team { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+
+.team-person {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/*------------FOOTER---------*/
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+    background: var(--background-color);
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+    background: var(--background-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    background:var(--background-color);
+}
+
+/*-----------PORTFOLIO---------*/
+
+.section-list {
+    list-style-type: none;
+}
+
+.button-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.button-list:hover {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.section-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
