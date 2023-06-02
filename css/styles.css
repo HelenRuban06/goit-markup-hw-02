@@ -7,16 +7,16 @@
 }
 
 body {
-    font-family:"Roboto", sans-serif;
-    font-style: normal;
+    font-family: "Roboto",sans-serif;
     color: var(--color-portfolio);
+    font-style: normal;
     background-color: var(--background-color);
     }
 
 /*--------------HEADER------------*/
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -55,27 +55,21 @@ text-decoration: none;
     color: #404BBF;
 }
 
-.header-adress {
+address{
     font-style: normal;
-}
-.header-adress-navigation {
-    list-style-type: none;
 }
 
 .header-adress-item {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-portfolio);
-    font-style: normal;
-    text-decoration: none;
     letter-spacing: 0.02em;
+    color: var(--color-two);
+    font-style: normal;
 }
-
-.header-adress-item:focus {
+.header-adress-item:hover {
     color: #404BBF;
 }
-
-.header-adress-item:hover {
+.header-adress-item:focus {
     color: #404BBF;
 }
 
@@ -90,13 +84,14 @@ text-decoration: none;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: var(--background-color);
     letter-spacing: 0.02em;
+    color: var(--background-color);
 }
 
 .main-item {
 background-color: #FFFFFF;
 }
+
 .main-button {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -104,17 +99,18 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height:1.5;    
     color: var(--background-color);
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 .main-button:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 .main-button:hover {
-    background: #404BBF;
+    background-color: #404BBF;
 }
+
 .main-title {
     font-weight: 500;
     font-size: 20px;
@@ -126,12 +122,12 @@ background-color: #FFFFFF;
 .main-text {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
     letter-spacing: 0.02em;
+    color: var(--color-portfolio);
+    
 }
 
 .main-product {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -144,7 +140,6 @@ background-color: #FFFFFF;
     background-color: #F4F4FD;
 }
 .team { 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -208,7 +203,7 @@ background: var(--color-two);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color);
-    background: var(--color-three);
+    background-color: var(--color-three);
     cursor: pointer;
 }
 
