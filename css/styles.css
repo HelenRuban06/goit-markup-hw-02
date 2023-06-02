@@ -31,7 +31,7 @@ body {
 text-decoration: none;
 }
 
-.header-logo span {
+.span {
     color: var(--color-two);
 }
 
@@ -39,7 +39,7 @@ text-decoration: none;
     list-style: none;
 }
 
-.header-navigation-item{
+.header-navigation-item {
     color: var(--color-two);
     font-weight: 500;
     font-size: 16px;
@@ -47,8 +47,8 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-.header-navigation-item:hover
-.header-navigation-item: :focus {
+.header-navigation-item:hover,
+.header-navigation-item:focus {
     color: #404BBF;
 }
 
@@ -60,12 +60,10 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-two);
+    color: var(--color-portfolio);
     font-style: normal;
 }
-.header-adress-item:hover {
-    color: #404BBF;
-}
+.header-adress-item:hover,
 .header-adress-item:focus {
     color: #404BBF;
 }
